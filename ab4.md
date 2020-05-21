@@ -18,7 +18,7 @@ Convert and print this value in meters and centimeters.
 200000
 ```
 
-**Code**
+**Code :**
 ```python
 a=input()
 a=int(a)
