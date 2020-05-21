@@ -20,5 +20,8 @@ Convert and print this value in meters and centimeters.
 
 **Code**
 ```python
-
+a=input()
+a=int(a)
+print(a*1000)
+print(a*1000*100)
 ```
