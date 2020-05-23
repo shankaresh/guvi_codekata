@@ -9,6 +9,7 @@ In GUVI platform - codekata solved problems (random problems are arranged in guv
   * [#5 problem](ab5.md)
   * [#6 problem](ab6.md)
   * [#7 problem](ab7.md)
+  * [#8 problem](ab8.md)
   
-### Mathemathics
+### 2. Mathemathics
   * [#1 problem](mm1.md)
