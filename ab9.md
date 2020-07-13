@@ -1,7 +1,5 @@
 ### Problem no.9
-
 You are given the coefficients of a quadratic equation in order A, B & C.
-
 Where A is the coefficient of X2,  B is the coefficient of X and C is the constant term in the most simplified form.
 
 **Example:** For  X2 + 5X + 6 = 0, you are given the input as: 1 5 6.
@@ -31,5 +29,14 @@ Print the two values of X after rounding off to 2 decimal places if required.
 
 **Code :**
 ```python
-
+import math
+a,b,c=input().split()
+a=float(a)
+b=float(b)
+c=float(c)
+d=b**2 - 4*a*c
+x1 = ((-b)+math.sqrt(d))/(2*a)
+x2 = ((-b)-math.sqrt(d))/(2*a)
+print("%.2f"%round(x1,2))
+print("%.2f"%round(x2,2))
 ```
